@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Pinned to @v1.4 (tracked-source packaging + per-file size cap).
-      - uses: HIPAACKR/pr-compliance-check@v1.4
+      - uses: HIPAACKR/pr-compliance-check@v1.5
         with:
           api-key: ${{ secrets.COMPLIANCE_API_KEY }}
           frameworks: '["hipaa"]'
